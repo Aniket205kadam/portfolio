@@ -1,8 +1,28 @@
 {
   "redirects": [
     {
-      "source": "/spotify",
-      "destination": "https://youtube.com",
+      "source": "/spotify/top/tracks?limit=10",
+      "destination": "https://spotify-integration-latest.onrender.com/spotify/top/tracks?limit=10",
+      "permanent": true
+    },
+    {
+      "source": "/spotify/current/playing-song",
+      "destination": "https://spotify-integration-latest.onrender.com/spotify/current/playing-song",
+      "permanent": true
+    },
+    {
+      "source": "/spotify/player/play?track-uri=7hGQiJXERTnhQbW5cyo2bA",
+      "destination": "https://spotify-integration-latest.onrender.com/spotify/player/play?track-uri=7hGQiJXERTnhQbW5cyo2bA",
+      "permanent": true
+    },
+    {
+      "source": "/spotify/player/pause",
+      "destination": "https://spotify-integration-latest.onrender.com/spotify/player/pause",
+      "permanent": true
+    },
+    {
+      "source": "/spotify/following/artists",
+      "destination": "https://spotify-integration-latest.onrender.com/spotify/following/artists",
       "permanent": true
     }
   ]
