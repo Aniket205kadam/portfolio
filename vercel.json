@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/spotify",
+      "destination": "https://open.spotify.com/user/your-spotify-id",
+      "permanent": true
+    }
+  ]
+}
